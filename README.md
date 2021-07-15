@@ -25,7 +25,7 @@ Users should be able to:
 - See hover states for interactive elements
 ### Screenshot
 
-![Design preview for the 3-column preview card component coding challenge](/images/captura.png)
+![Design preview for the 3-column preview card component coding challenge](./images/captura.PNG)
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
