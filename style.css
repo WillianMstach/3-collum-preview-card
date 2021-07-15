@@ -57,13 +57,13 @@ input:hover {
 .card2 {
   grid-area: card2;
   background-color: hsl(184, 100%, 22%);
-  padding: 15%;
+  padding: 14%;
 }
 .card3 {
   grid-area: card3;
   background-color: hsl(179, 100%, 13%);
   border-radius: 0 0 15px 15px;
-  padding: 15%;
+  padding: 14%;
 }
 .attribution {
   color: hsl(179, 100%, 13%);
@@ -80,7 +80,11 @@ input:hover {
 
 /* --- DESIGN 600PX --- */
 @media (min-width:600px) {
-
+  .content {  margin: 25% 15%;  }
+  h1 {  font-size: 2.5em; padding-top: 5%; }
+  p {   font-size: 1em; text-align: justify;}
+  .card1, .card2, .card3 {  padding: 10%;}
+  input { width: 180px; height: 55px;
 }
 
 /* --- DESIGN 900PX --- */
