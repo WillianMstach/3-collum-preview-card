@@ -1,0 +1,94 @@
+* {
+  margin: 0; padding: 0; box-sizing: border-box;
+}
+
+/* --- DESIGN MOBILE FIRST 375px ---*/
+body {
+  font-size: 15px;
+  color: white;
+}
+.content {
+  margin: 25% 5%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: "card1" "card2" "card3";
+}
+h1 {
+  font-family: 'Big Shoulders Display', cursive;
+  text-transform: uppercase;
+  padding-top: 10%;
+}
+p {
+  font-family: 'Lexend Deca', sans-serif;
+  padding-top: 10%;
+  line-height: 1.7em;
+  font-size: 0.9em;
+}
+input {
+  margin-top: 10%;
+  width: 150px;
+  height: 45px;
+  border-radius: 30px;
+  border-style: none;
+  font-family: 'Lexend Deca', sans-serif;
+}
+.card1 input {
+  color: hsl(31, 77%, 52%);
+}
+.card2 input {
+  color: hsl(184, 100%, 22%);
+}
+.card3 input {
+  color: hsl(179, 100%, 13%);
+}
+input:hover {
+  border: solid 2px white;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+}
+.card1 {
+  grid-area: card1;
+  background-color: hsl(31, 77%, 52%);
+  border-radius: 15px 15px 0 0;
+  padding: 14%;
+}
+.card2 {
+  grid-area: card2;
+  background-color: hsl(184, 100%, 22%);
+  padding: 15%;
+}
+.card3 {
+  grid-area: card3;
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 0 0 15px 15px;
+  padding: 15%;
+}
+.attribution {
+  color: hsl(179, 100%, 13%);
+  margin: 10%;
+  text-align: center;
+}
+.attribution a{
+  color: hsl(31, 77%, 52%);
+  text-decoration: none;
+}
+.attribution a:hover {
+  color: hsl(184, 100%, 22%);
+}
+
+/* --- DESIGN 600PX --- */
+@media (min-width:600px) {
+
+}
+
+/* --- DESIGN 900PX --- */
+@media (min-width:900px) {
+  
+}
+
+/* --- DESIGN 1200PX --- */
+@media (min-width:1200px) {
+  
+}
