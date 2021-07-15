@@ -78,18 +78,69 @@ input:hover {
   color: hsl(184, 100%, 22%);
 }
 
-/* --- DESIGN 600PX --- */
+/* ----------------------------------------- DESIGN 600PX ----------------------------------------- */
 @media (min-width:600px) {
-  .content {  margin: 25% 15%;  }
-  h1 {  font-size: 2.5em; padding-top: 5%; }
-  p {   font-size: 1em; text-align: justify;}
-  .card1, .card2, .card3 {  padding: 10%;}
-  input { width: 180px; height: 55px;
+  .content {
+    margin: 25% 15%;
+  }
+  h1 {
+    font-size: 2.5em;
+    padding-top: 5%;
+  }
+  p {
+    font-size: 1em;
+    text-align: justify;
+  }
+  .card1, .card2, .card3 {
+    padding: 10%;
+  }
+  input {
+    width: 180px;
+    height: 55px;
+    font-size: 1em;
+  }
+  .attribution {
+    font-size: 1em;
+  }
 }
 
-/* --- DESIGN 900PX --- */
+/* ----------------------------------------- DESIGN 900PX ----------------------------------------- */
 @media (min-width:900px) {
-  
+  .content {
+    margin: 10% 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "card1 card2 card3";
+  }
+  h1 {
+    font-size: 2em;
+    padding-top: 10%;
+  }
+  p {
+    font-size: 0.8em;
+    text-align: justify;
+  }
+  .card1 {
+    border-radius: 15px 0 0 15px;
+  }
+  .card3 {
+    border-radius: 0 15px 15px 0;
+  }
+  input {
+    width: 130px;
+    height: 45px;
+    font-size: 0.8em;
+    margin-top: 35%;
+  }
+  .attribution {
+    font-size: 1em;
+    bottom: 5%;
+    position: fixed;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+  }
 }
 
 /* --- DESIGN 1200PX --- */
