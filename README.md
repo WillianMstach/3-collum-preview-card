@@ -25,7 +25,7 @@ Users should be able to:
 - See hover states for interactive elements
 ### Screenshot
 
-![Screenshot](captura.png)
+![Screenshot](captura.PNG)
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
